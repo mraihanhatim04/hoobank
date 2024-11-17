@@ -16,8 +16,8 @@ const Navbar = () => {
           alt="hoobank"
           className="w-[124px] h-[40px] ml-[-40px]"
         />
-        <h1 className="text-white text-4xl font-bold font-mono ml-[-39px]">
-          Hoo<span className="text-[#5CE1E6]">Bank.</span>
+        <h1 className="text-white text-4xl font-serif mt-2 font-bold ml-[-39px]">
+          Hoo<span className="text-[#5CE1E6]">Bank</span>
         </h1>
       </div>
 
