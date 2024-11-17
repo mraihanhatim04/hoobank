@@ -1,6 +1,9 @@
 import React from "react";
 import styles from "./style";
 
+import { SpeedInsights } from "@vercel/speed-insights/react";
+import { Analytics } from "@vercel/analytics/react";
+
 import {
   Navbar,
   Billing,
@@ -41,6 +44,12 @@ const App = () => {
           <Footer />
         </div>
       </div>
+
+      {/* Add the Analytics */}
+      <Analytics />
+
+      {/* Add the Speed Insight */}
+      <SpeedInsights />
     </div>
   );
 };
